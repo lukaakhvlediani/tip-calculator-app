@@ -45,7 +45,7 @@ width: 379px;
 height: 48px;
 background: #F3F9FA;
 border-radius: 5px;
-background:url('/Users/akhvlediani/Downloads/tip-calculator-app-main/images/icon-dollar.svg');
+background:url('./icon-dollar.svg');
 background-repeat: no-repeat;
 background-position-y:center;
 text-align: right;
@@ -140,7 +140,7 @@ bottom: 0%;
 background: #F3F9FA;
 border-radius: 5px;
 margin-left: 50px;
-background: url('/Users/akhvlediani/Downloads/tip-calculator-app-main/images/icon-person.svg');
+background: url('./icon-person.svg');
 background-repeat: no-repeat;
 background-position-y: center;
 }
