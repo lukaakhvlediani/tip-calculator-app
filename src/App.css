@@ -1,38 +1,227 @@
-.App {
-  text-align: center;
+body{
+  background-color: #C5E4E7;
+ 
+}
+.heading{
+  position: absolute;
+width: 80px;
+height: 53.14px;
+left: 677px;
+top: 163px;
+font-weight: 500;
+font-family: "Space Mono";
+color: #3D6666;
+word-wrap: break-word;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rectangle{
+  position: absolute;
+width: 920px;
+height: 481px;
+left: 260px;
+top: 304px;
+display: flex;
+background: #FFFFFF;
+box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+border-radius: 25px;
+}
+.bill{
+height: 24px;
+left: 0%;
+right: 89.45%;
+top: calc(50% - 24px/2 - 27px);
+margin-left: 50px;
+margin-top: 20px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #5E7A7D;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rec{
+width: 379px;
+height: 48px;
+background: #F3F9FA;
+border-radius: 5px;
+background:url('/Users/akhvlediani/Downloads/tip-calculator-app-main/images/icon-dollar.svg');
+background-repeat: no-repeat;
+background-position-y:center;
+text-align: right;
+font-family: "Space Mono";
+color:  #00474B;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+background-color: #F3F9FA;
+margin-left: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Tip{
+  position: absolute;
+height: 24px;
+left: 0%;
+right:70%;
+top: calc(50% - 24px/2 - 64px);
+margin-left: 50px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #5E7A7D;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 5px;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 100px;
+
+}
+
+.btn{
+  width: 117px;
+  height: 48px;
+  background: #00474B;
+  font-family: "Space Mono";
+top: calc(50% - 36px/2);
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color:  #FFFFFF;
+border-radius: 5px;
+
+}
+.custom{
+  width: 117px;
+  background:#F3F9FA;
+  color: #547878;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+text-align: right;
+border-radius:5px;
+}
+
+.people{
+margin-left: 50px;
+height: 24px;
+left: 0%;
+right: 58.58%;
+top: calc(50% - 24px/2 - 27px);
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #5E7A7D;
+}
+
+.ppl{
+  width: 379px;
+height: 48px;
+font-family: 'Space Mono';
+text-align: right;
+font-size: 24px;
+font-weight: 700;
+color:#00474B;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #F3F9FA;
+border-radius: 5px;
+margin-left: 50px;
+background: url('/Users/akhvlediani/Downloads/tip-calculator-app-main/images/icon-person.svg');
+background-repeat: no-repeat;
+background-position-y: center;
+}
+
+.secondrec{
+  width: 413px;
+  height: 417px;
+  background-color: #00474B;
+  border-radius: 18px;
+  margin-left: 35px;
+  margin-top: 25px;
+  
+}
+
+.tipamount{
+  margin-left: 30px;
+  margin-top: 30px;
+height: 24px;
+left: 0%;
+right: 0%;
+top: calc(50% - 24px/2 - 10px);
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+
+.person1{
+  margin-left: 30px;
+height: 19px;
+left: 0%;
+right: 34.69%;
+top: calc(50% - 19px/2 + 11.5px);
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 19px;
+color: #7F9D9F
+}
+.reset{
+  width: 333px;
+  height: 48px;
+  background-color:  #26C2AE;
+  border-radius: 10px;
+  font-family: 'Space Mono';
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-left: 50px;
+}
+
+.calculations{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.calculatednum{
+
+height: 71px;
+left: 57.06%;
+right: 0%;
+top: calc(50% - 71px/2);
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 71px;
+text-align: right;
+letter-spacing: -1px;
+color: #26C2AE;
+margin-right:50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reset:hover{
+  background-color:  #9FE8DF;
+}
+
+.btn:hover{
+  background-color:  #9FE8DF;
 }
