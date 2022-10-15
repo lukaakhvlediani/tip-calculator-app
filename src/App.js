@@ -8,13 +8,11 @@ function App() {
   const [totalAmount, setTotalAmount] = useState(0)
 
   useEffect(() => {
-    // if (bill > 0 || tip > 0 || numberOfPeop > 0) {
-    //   // setStarted(true);
-    // }
+
 
     if (bill > 0 && tip > 0 && person > 0) {
       calculatednum(bill, person, tip);
-      // setReset(true);
+
     }
   }, [bill, tip, person]);
   
